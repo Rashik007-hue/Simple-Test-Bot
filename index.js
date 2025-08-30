@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const app = express();
 app.use(express.json());
 
-const TOKEN = "YOUR_BOT_TOKEN"; // এখানে আপনার BotFather এর Token দিন
+const TOKEN = "8470504498:AAGJVfqgazWHNRNmXAAEDXzqEl0o1JArbgk"; // এখানে আপনার BotFather এর Token দিন
 const API_URL = `https://api.telegram.org/bot${TOKEN}/`;
 
 // Root check
