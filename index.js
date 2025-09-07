@@ -22,7 +22,7 @@ app.post("/webhook", async (req, res) => {
 
     let reply = "আপনি লিখেছেন: " + text;
     if (text === "/start") {
-      reply = "👋 হ্যালো! আমি Render.com এ রান হওয়া Node.js Telegram Bot ✅";
+      reply = " হ্যালো! আমি Render.com এ রান হওয়া Node.js Telegram Bot ✅";
     }
 
     // Reply পাঠানো
